@@ -13,10 +13,6 @@
 
 
 /* content */
-.content{
-    display: flex;
-
-}
 .card-img-overlay{
     position: relative
 }
@@ -35,7 +31,7 @@
 .card-title.rates{
     background-color: rgba(54, 214, 139, 0.9);
     border-radius: 2px;
-    width: 160px;
+    width: 210px;
     height: 25px;
     text-align: center;
 }
@@ -67,4 +63,48 @@ h5.card-title.news{
     position: absolute;
     top: 10px;
     left: 10px;
+}
+.card.mb-3{
+    height: 300px;
+}
+
+.content-2{
+    display: flex;
+    justify-content: space-around;
+}
+/* footer */
+.footer-row{
+    display: flex;
+    justify-content:space-between;
+}
+.footer-logo{
+    margin: 115px;
+    margin-top: 50px;
+}
+.icon-contact{
+    margin: 115px;
+    margin-top: 50px;
+}
+.footer-about{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    background-color: whitesmoke;
+}
+
+/* respponsive */
+@media screen and (max-width: 768px) {
+    .footer-row{
+        display:inline;
+        text-align: center;
+    }
+    .footer-logo{
+        margin-left: 245px;
+        margin-bottom: -40px;
+    }
+    .footer-about{
+        display: inline;
+        text-align: center;
+    }
 }
