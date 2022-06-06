@@ -1,0 +1,110 @@
+/* header+ navigation */
+.logo.mx-auto.d-block{
+    margin: 2rem;
+}
+.navigation{
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.8);
+    display: block;
+    font-size: 14px;
+    padding: 0 15px;
+    margin: 0 44px;
+}
+
+
+/* content */
+.card-img-overlay{
+    position: relative
+}
+.card-text{
+    position: absolute;
+    bottom: 15px;
+}
+.card-title.news{
+    background-color: rgba(211, 64, 64, 0.9);
+    border-radius: 2px;
+    width: 80px;
+    height: 25px;
+    text-align: center;
+}
+
+.card-title.rates{
+    background-color: rgba(54, 214, 139, 0.9);
+    border-radius: 2px;
+    width: 210px;
+    height: 25px;
+    text-align: center;
+}
+.card-img{
+    height: 255px;
+    width: 400px;
+    margin-top: 10px;
+}
+.card.text-white.bg-dark{
+    box-sizing: border-box;
+    height: 350px;
+    width: 400px;
+    margin: 10px;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: space-around;
+
+}
+.card.mb-3{
+    box-sizing: border-box;
+    height: 165px;
+    width: 293px;
+    margin: 15px 44px;
+    position: relative;
+}
+h5.card-title.news{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.card.mb-3{
+    height: 300px;
+}
+
+.content-2{
+    display: flex;
+    justify-content: space-around;
+}
+/* footer */
+.footer-row{
+    display: flex;
+    justify-content:space-between;
+}
+.footer-logo{
+    margin: 115px;
+    margin-top: 50px;
+}
+.icon-contact{
+    margin: 115px;
+    margin-top: 50px;
+}
+.footer-about{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    background-color: whitesmoke;
+}
+
+/* respponsive */
+@media screen and (max-width: 768px) {
+    .footer-row{
+        display:inline;
+        text-align: center;
+    }
+    .footer-logo{
+        margin-left: 245px;
+        margin-bottom: -40px;
+    }
+    .footer-about{
+        display: inline;
+        text-align: center;
+    }
+}
