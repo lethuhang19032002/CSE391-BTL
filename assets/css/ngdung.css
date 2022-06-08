@@ -1,3 +1,22 @@
+.title
+{
+    background-color: #f8f8f8;
+    font-size: 1.8rem;
+    height: 95px;
+    width: 1510px !important;
+    padding: 0px 179px !important;
+    margin: 20px -167px;
+    line-height: 89px;
+    font-family: "Source Serif Pro",Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 5%);
+    display: flex;
+    align-items: center;
+}
+
+.nav-item
+{
+    font-family: "Source Serif Pro",Arial, Helvetica, sans-serif;
+}
 .title-h1
 {
     width: 100%;
@@ -19,4 +38,52 @@
     width: 1296px;
     padding: 0;
     margin: 0;
+}
+
+.post__thumb{
+    max-width: 1200px;
+}
+.background-img_item12{
+    width: 95%;
+}
+
+.text_item_23{
+    text-align: center;
+    width: 96%;
+}
+
+.boder_23j{
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    padding: 0 20px;
+    border-right: 1px solid #ccc;
+    height: 150px;
+    border-radius: 8px ;
+    padding-top: 16px;
+
+}
+.background-img_item22
+{
+    width: 310px;
+}
+
+/* footer */
+.footer-row{
+    display: flex;
+    justify-content:space-between;
+}
+.footer-logo{
+    margin: 115px;
+    margin-top: 50px;
+}
+.icon-contact{
+    margin: 115px;
+    margin-top: 50px;
+}
+.footer-about{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    background-color: whitesmoke;
 }
