@@ -1,8 +1,3 @@
-body{
-    margin:0px;
-    padding:0px;
-    font-family: Nunito,Arial, Helvetica, sans-serif;
-}
 /* header+ navigation */
 .logo.mx-auto.d-block{
     margin: 2rem;
@@ -20,6 +15,15 @@ body{
     flex-basis: auto;
     justify-content: space-between;
 }
+
+.doimau {
+    color: inherit;
+}
+.nav-item .doimau1
+{
+    color: inherit;
+}
+
 .bg-title{
     background-color: #f8f8f8;
     width: 100% ;
@@ -27,10 +31,8 @@ body{
 
 }
 .title
-{
-    
+{    
     font-size: 1.8rem;
-
     line-height: 12px;
     padding-left: 168px;
     padding-top: 17px;
@@ -94,4 +96,53 @@ body{
 .text{
     font-size: 1.5rem;
     font-weight: 700;
+}
+
+
+
+/* footer */
+.footer-row{
+    display: flex;
+    justify-content:space-between;
+}
+.footer-logo{
+    margin: 115px;
+    margin-top: 50px;
+}
+.icon-contact{
+    margin: 115px;
+    margin-top: 50px;
+}
+.footer-about{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    background-color: whitesmoke;
+}
+
+/* respponsive */
+@media (max-width:980px)  {
+    .video_1q{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-row{
+        display:inline;
+        text-align: center;
+    }
+    .footer-logo{
+        align-items: center;
+        margin-bottom: -40px;
+    }
+    a.logo{
+        display: flex !important;
+        justify-content: center;
+    }
+    .footer-about{
+        display: inline;
+        text-align: center;
+    }
 }

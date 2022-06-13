@@ -10,21 +10,36 @@
     padding: 0 15px;
     margin: 0 44px;
 }
-
-
-.title
-{
+.navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: space-between;
+}
+.doimau {
+    color: inherit;
+}
+.nav-item .doimau1{
+    color: inherit;
+}
+.bg-title{
     background-color: #f8f8f8;
+    width: 100% ;
+    height: 115px;
+
+}
+.title
+{   
     font-size: 1.8rem;
-    height: 95px;
-    width: 420vh !important;
-    padding: 0px 179px !important;
-    margin: 20px -167px;
-    line-height: 89px;
-    font-family: "Source Serif Pro",Arial, Helvetica, sans-serif;
-    box-shadow: 0 0 0 1px rgb(0 0 0 / 5%);
-    display: flex;
+    line-height: 12px;
+    padding-left: 168px;
+    padding-top: 17px;
+    margin: 3px;
     align-items: center;
+}
+
+.title-1{
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 .nav-item
@@ -59,6 +74,7 @@
 }
 .background-img_item12{
     width: 99%;
+    border-radius: 9px;
 }
 
 .text_item_23{
@@ -101,21 +117,22 @@
 .footer{
     background-color: whitesmoke;
 }
-
-
-
 /* respponsive */
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .footer-row{
         display:inline;
         text-align: center;
     }
     .footer-logo{
-        margin-left: 245px;
+        align-items: center;
         margin-bottom: -40px;
+    }
+    a.logo{
+        display: flex !important;
+        justify-content: center;
     }
     .footer-about{
         display: inline;
         text-align: center;
     }
-} */
+}
