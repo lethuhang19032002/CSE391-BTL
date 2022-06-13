@@ -72,6 +72,14 @@ h5.card-title.news{
     display: flex;
     justify-content: space-around;
 }
+
+.select_rate{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
 /* footer */
 .footer-row{
     display: flex;
@@ -100,8 +108,12 @@ h5.card-title.news{
         text-align: center;
     }
     .footer-logo{
-        margin-left: 245px;
+        align-items: center;
         margin-bottom: -40px;
+    }
+    a.logo{
+        display: flex !important;
+        justify-content: center;
     }
     .footer-about{
         display: inline;
