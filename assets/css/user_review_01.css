@@ -54,12 +54,21 @@
     height: 641px;
     border-radius: 9px;
 }
+.img01
+{
+    width: 100%;
+    padding-right: 180px;
+    padding-left: 180px;
+
+    padding-bottom: 30px;
+}
 
 .content1 {
     width: 100%;
     padding-right: 263px;
     padding-left: 263px;
     padding-top: 30px;
+    font-size: 20px;
 }
 
 .img02 {
@@ -75,9 +84,16 @@
     padding-right: 250px;
     padding-left: 250px;
     padding-bottom: 30px;
-    border-radius: 9px;
 }
-
+/* css image cho user_review_02 */
+.img06{
+    height: 200px;
+    width: 100%;
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+}
 /* footer */
 .footer-row {
     display: flex;
