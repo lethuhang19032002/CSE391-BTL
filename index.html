@@ -30,7 +30,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Tin tức</a>
+                            <a class="nav-link active" aria-current="page" href="./news.html">Tin tức</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Vật vờ đánh giá</a>
@@ -39,10 +39,10 @@
                             <a class="nav-link active" aria-current="page" href="#">Góc nhìn</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Người dùng đánh giá</a>
+                            <a class="nav-link active" aria-current="page" href="./user_review.html">Người dùng đánh giá</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Tips & tricks</a>
+                            <a class="nav-link active" aria-current="page" href="./tip&trick.html">Tips & tricks</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -112,7 +112,7 @@
 
     <!-- content-2 -->
     <div class="content-2">
-        <div>
+        <div class="content-2-1">
             <div>
                 <a src="#" style="display:flex;">
                     <div>
@@ -169,35 +169,67 @@
                 </a>
             </div>
         </div>
-        <div>
-            <div class="content_2 rates" >
-                <!-- js -->
-                <p >Theo bạn đâu là chiếc smartphone đáng mua nhất năm 2022</p>
-                <div class="select_rate">
-                    <div class="rate_1">
-                        <button class="btn_rate_1">iPhone 13 Promax</button>
-                        <input type="hidden" class="percentage_1" value="1" >
-                        <p class="value_1">80</p>
-                        <p style="text-align: center ;">%</p>
-                    </div>
-                    <div class="rate_2">
-                        <button class="btn_rate_2" >Samsung S22 Ultra</button>
-                        <input type="hidden" class="percentage_2" value="1" >
-                        <p class="value_2">80</p>
-                        <p style="text-align: center ;">%</p>
-                    </div>
+        <div class="content-2-2">
+            <div class="wrapper" >
+                <header>Theo bạn, chiếc smartphone nào đáng mua nhất năm 2022?</header>
+                <div class="poll-area">
+                    <input type="checkbox" name="poll" id="opt-1">
+                    <input type="checkbox" name="poll" id="opt-2">
+                    <input type="checkbox" name="poll" id="opt-3">
+                    <input type="checkbox" name="poll" id="opt-4">
+                    <label for="opt-1" class="opt-1">
+                        <div class="row">
+                            <div class="column">
+                                <span class="circle"></span>
+                                <span class="text">Samsung S22 Ultra</span>
+                            </div>
+                            <span class="percent">30%</span>
+                        </div>
+                        <div class="progress" style='--w:30;'></div>
+                    </label>
+                    <label for="opt-2" class="opt-2">
+                        <div class="row">
+                            <div class="column">
+                                <span class="circle"></span>
+                                <span class="text">Oppo Find X3 Pro 5G</span>
+                            </div>
+                            <span class="percent">20%</span>
+                        </div>
+                        <div class="progress" style='--w:20;'></div>
+                    </label>
+                    <label for="opt-3" class="opt-3">
+                        <div class="row">
+                            <div class="column">
+                                <span class="circle"></span>
+                                <span class="text">iPhone 13 Promax</span>
+                            </div>
+                            <span class="percent">40%</span>
+                        </div>
+                        <div class="progress" style='--w:40;'></div>
+                    </label>
+                    <label for="opt-4" class="opt-4">
+                        <div class="row">
+                            <div class="column">
+                                <span class="circle"></span>
+                                <span class="text">Asus ROG Phone 3</span>
+                            </div>
+                            <span class="percent">10%</span>
+                        </div>
+                        <div class="progress" style='--w:10;'></div>
+                    </label>
                 </div>
             </div>
-            <div style="border-radius: 2px solid ; display: flex; justify-content: center;">
+            <div class="banner">
                 <iframe width="300" height="171" src="https://www.youtube.com/embed/2M9nNG_9DDc">
                 </iframe>
             </div>
-            <div style="border-radius: 2px solid ; display: flex; justify-content: center;">
+            <div class="banner">
                 <iframe width="300" height="171" src="https://www.youtube.com/embed/GPX7CiADjIQ">
                 </iframe>
             </div>
             <div>
-                <a href="https://cellphones.com.vn/" style="border-radius: 2px solid ; display: flex; justify-content: center;">
+                <a href="https://cellphones.com.vn/"
+                    class="banner">
                     <div>
                         <img src="./assets/image/Home_8.jpg" alt="" height="600" width="300">
                     </div>
@@ -214,8 +246,8 @@
     <div class="footer">
         <div class="footer-row">
             <div class="footer-logo">
-                <a href="./index.html" class="logo d-block"> <img src="./assets/image/vatvologo_hq1.png" alt="" class="logo d-block" width="120"
-                        height="72">
+                <a href="./index.html" class="logo d-block"> <img src="./assets/image/vatvologo_hq1.png" alt=""
+                        class="logo d-block" width="120" height="72">
                 </a>
             </div>
             <div class="icon-contact">
