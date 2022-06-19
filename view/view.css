@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+/* header+ navigation */
+.logo.mx-auto.d-block {
+    margin: 2rem;
+}
+
+.navigation {
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.8);
+    display: block;
+    font-size: 14px;
+    padding: 0 15px;
+    margin: 0 44px;
+}
