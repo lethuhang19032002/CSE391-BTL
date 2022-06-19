@@ -16,7 +16,7 @@
 .content-1 {
     height: 400px;
     background-color: #cc383a;
-    background-image: url("../image/News_bg.png") ;
+    background-image: url("../assets/image/News_bg.png") ;
     background-repeat: repeat-x;
     background-size: 400px;
 }
@@ -86,6 +86,8 @@ a.content-1-2-2 {
     margin: 40px;
     display: flex;
     justify-content: center;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.333);
 }
 .card-title-news{
     color: rgba(211, 64, 64, 0.9);
