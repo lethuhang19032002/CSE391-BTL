@@ -12,18 +12,22 @@
 
 </head>
 
+
 <body>
 
 
     <!-- header -->
     <header>
-        <img class="logo mx-auto d-block" src="./assets/image/vatvologo_hq1.png" alt="" width="120" height="72">
+        <a href="index.html">
+            <img class="logo mx-auto d-block" src="./assets/image/vatvologo_hq1.png" alt="" width="120"
+                height="72"></a>
+
     </header>
     <!-- navigation -->
-    <div class="navigation">
-        <nav class="navbar navbar-expand-lg">
+    <div class="navigation ">
+        <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid ">
-                <a class="navbar-brand doimau" href="#">Home</a>
+                <a class="navbar-brand doimau" href="index.html">Home</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +36,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link doimau1" aria-current="page" href="#">Tin tức</a>
+                            <a class="nav-link doimau1" aria-current="page" href="news.html">Tin tức</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link doimau1" aria-current="page" href="#">Vật vờ đánh giá</a>
@@ -49,8 +53,9 @@
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+                            id="giatritim">
+                        <button class="btn btn-outline-success" id="tim" type="submit" onclick="">Search</button>
                     </form>
                 </div>
             </div>
@@ -135,7 +140,13 @@
                     Dòng laptop Ultrabook thường được biết đến với thiết kế mỏng nhẹ cùng một hiệu năng vừa đủ để đáp
                     ứng công việc, ...
                 </h6>
+                <small style="color:rgb(214, 214, 195)">By TRUNG HIEU</small>
+                <script>
+                    var d = new Date("16 June 2022");
+                    document.write(d.toLocaleDateString() + "<br>");
+                </script>
             </div>
+
         </div>
 
         <!-- content 2-->
@@ -146,7 +157,7 @@
                         <a href="">
                             <img alt="Bootstrap Image Preview" class="background-img_item22"
                                 src="assets/image/User_review_img06.PNG" />
-                            </a>
+                        </a>
 
                     </div>
                     <div class="col-md-8">
@@ -161,6 +172,11 @@
                             Bộ truyện tranh Doraemon có lẽ là một trong những bộ truyện nổi tiếng và đi vào tuổi thơ của
                             rất nhiều người.
                         </h6>
+                        <small style="color:rgb(214, 214, 195)">By HUU TUNG</small>
+                        <script>
+                            var d = new Date("10 June 2022");
+                            document.write(d.toLocaleDateString() + "<br>");
+                        </script>
                     </div>
                 </div>
                 <div class="row py-4">
@@ -180,6 +196,11 @@
                             Những chiếc điện thoại tầm trung của Samsung lâu nay luôn được gắn mác là chậm, lag sau
                             khoảng từ 1 – 2 năm sử dụng.
                         </h6>
+                        <small style="color:rgb(214, 214, 195)">By TRUNG HIEU</small>
+                        <script>
+                            var d = new Date("6 June 2022");
+                            document.write(d.toLocaleDateString() + "<br>");
+                        </script>
                     </div>
                 </div>
                 <div class="row py-4">
@@ -199,6 +220,11 @@
                             Vsmart Active 3 là chiếc điện thoại nhận được rất nhiều những tranh cãi trong thời gian đầu
                             nó ra mắt. Người dùng chê trách Vsmart Active 3 vì nó chỉ được trang bị con chip Helio P60.
                         </h6>
+                        <small style="color:rgb(214, 214, 195)">By LONG VU</small>
+                        <script>
+                            var d = new Date("3 June 2022");
+                            document.write(d.toLocaleDateString() + "<br>");
+                        </script>
                     </div>
                 </div>
                 <div class="row py-4">
@@ -216,6 +242,11 @@
                         <h6>
                             Kể từ khi HMD Global sở hữu thương hiệu Nokia, họ đã tạo ra được nhiều những giá trị mới cho
                         </h6>
+                        <small style="color:rgb(214, 214, 195)">By TRUNG HIEU</small>
+                        <script>
+                            var d = new Date("5 May 2022");
+                            document.write(d.toLocaleDateString() + "<br>");
+                        </script>
                     </div>
                 </div>
             </div>
@@ -228,7 +259,10 @@
     <div class="footer">
         <div class="footer-row">
             <div class="footer-logo">
-                <img src="assets/image/vatvologo_hq1.png" alt="" class="logo d-block" width="120" height="72">
+                <a href="index.html">
+                    <img src="assets/image/vatvologo_hq1.png" alt="" class="logo d-block" width="120" height="72">
+                </a>
+
             </div>
             <div class="icon-contact">
                 <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="currentColor"
@@ -250,12 +284,13 @@
         </div>
         <div class="footer-about">
             <p>Vat Vo Studio © 2022. All Rights Reserved</p>
-            <div><a href="#" style="text-decoration: none; color:black;">HOME</a>
+            <div><a href="index.html" style="text-decoration: none; color:black;">HOME</a>
                 <a href="#" style="text-decoration: none; color:black;">VẬT VỜ PODCAST</a>
                 <a href="#" style="text-decoration: none; color:black;">ABOUT VT MEDIA</a>
             </div>
         </div>
     </div>
+</body>
 </body>
 
 </html>
