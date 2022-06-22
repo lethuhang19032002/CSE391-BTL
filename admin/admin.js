@@ -59,3 +59,24 @@ function renderPosts() {
 }
 renderPosts();
 
+//Add posts
+
+var typePosts = document.querySelector("input[name=type]");
+var titlePosts = document.querySelector("input[name=title]");
+var contentPosts = document.querySelector("input[name=content]");
+var imagePosts = document.querySelector("input[name=image]");
+var create = document.querySelector("#create");
+
+create.addEventListener("click", addPosts);
+
+function addPosts(){
+    var newPosts = {
+        id: posts.length +1,
+        type: typePosts.value,
+        title: titlePosts.value,
+        content: contentPosts.value,
+        image: imagePosts.value,
+    };
+    posts.push(newPosts);
+    renderPosts();
+}
