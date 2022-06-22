@@ -74,6 +74,20 @@ h5.card-title.news{
     justify-content: space-around;
 }
 
+.content-2-1 {
+  margin-top: 50px;
+  align-items: center;
+}
+
+img{
+  border-radius: 10px;
+}
+
+.text-content-2 {
+  margin-left: 25px;
+}
+
+
 .banner{
     display: flex; 
     justify-content: center;
