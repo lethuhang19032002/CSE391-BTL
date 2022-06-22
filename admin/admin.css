@@ -1,6 +1,3 @@
-html {
-    scroll-behavior: smooth;
-}
 .header{
     display: flex;
     margin-top: 20px;
@@ -11,9 +8,7 @@ html {
 }
 .header h2{
    font-size: 24px;
-   line-height: 28px;
-   text-decoration: none solid (34,34,34);
-   margin-top: 23px;
+   margin-top: 30px;
 }
 .nav{
     display: flex;
