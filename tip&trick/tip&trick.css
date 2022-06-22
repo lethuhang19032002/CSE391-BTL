@@ -3,20 +3,6 @@
     margin: 2rem;
 }
 
-.navigation {
-    box-sizing: border-box;
-    color: rgba(0, 0, 0, 0.8);
-    display: block;
-    font-size: 16px;
-    padding: 0 15px;
-    margin: 0 44px;
-}
-
-.navbar-collapse {
-    display: flex !important;
-    flex-basis: auto;
-    justify-content: space-between;
-}
 
 .doimau {
     color: inherit;
@@ -54,18 +40,16 @@
 
 /* content  */
 
-.card-img {
-    width: 100%;
-    border-radius: calc(0.25rem - 1px);
-    justify-content: center;
-    display: flex;
-}
 
 .content_1 {
     margin-right: 25px !important;
     margin-left: 25px !important;
 }
-
+.content_1_1 {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
 .row {
     padding-top: 30px;
     padding-bottom: 16px;
