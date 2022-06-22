@@ -49,7 +49,7 @@ function renderPosts() {
             <td>${post.image}</td>
             <td>
                 <a href = "#posts-managerment">
-                <button onclick="editPosts(id)" class="btn btn-primary btn-edit" id="${post.id}">Sửa</button></a>
+                <button onclick="changePosts(id)" class="btn btn-primary btn-edit" id="${post.id}">Sửa</button></a>
                 <button onclick="deletePosts(id)" class="btn btn-danger btn-delete" id="${post.id}">Xóa</button>
             </td>
         </tr>
@@ -80,3 +80,36 @@ function addPosts(){
     posts.push(newPosts);
     renderPosts();
 }
+
+//Edit posts
+//DELETE
+
+function deletePosts(id){
+    posts = posts.filter(function (post){
+        return post.id != id;
+    });
+    renderPosts();
+}
+
+//CHANGE
+
+var update = document.querySelector("#update");
+
+function changePosts(id){
+    var changePosts = posts.find(function (post){
+        return post.id == id;
+    });
+    typePosts.value = changePosts.type;
+    titlePosts.value = changePosts.title;
+    contentPosts.value = changePosts.content;
+    imagePosts.value = changePosts.image;
+
+    update.addEventListener("click", function (){
+        changePosts.type = typePosts.value;
+        changePosts.title = titlePosts.value;
+        changePosts.content = contentPosts.value;
+        changePosts.image = imagePosts.value;
+        renderPosts();
+    });
+}
+
