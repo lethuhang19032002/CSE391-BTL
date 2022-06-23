@@ -3,29 +3,6 @@
     margin: 2rem;
 }
 
-.navigation {
-    box-sizing: border-box;
-    color: rgba(0, 0, 0, 0.8);
-    display: block;
-    font-size: 16px;
-    padding: 0 15px;
-    margin: 0 44px;
-}
-
-.navbar-collapse {
-    display: flex !important;
-    flex-basis: auto;
-    justify-content: space-between;
-}
-
-.doimau {
-    color: inherit;
-}
-
-.nav-item .doimau1 {
-    color: inherit;
-}
-
 .bg-title {
     background-color: #12162d;
     width: 100%;
@@ -87,7 +64,6 @@
 }
 /* css image cho user_review_02 */
 .img06{
-    height: 200px;
     width: 100%;
     padding-right: 250px;
     padding-left: 250px;
@@ -113,6 +89,7 @@
 .footer-about {
     display: flex;
     justify-content: space-between;
+    padding: 0 100px;
 }
 
 .footer {
@@ -136,5 +113,20 @@
     .footer-about{
         display: inline;
         text-align: center;
+    }
+    
+}
+@media (max-width: 980px) {
+    .content1
+    {
+        padding: 0 10px;
+    }
+    .img02
+    {
+        padding: 0 10px;
+    }
+    .img06
+    {
+        padding: 0 10px;
     }
 }
