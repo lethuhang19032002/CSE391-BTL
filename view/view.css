@@ -344,4 +344,29 @@ input[type="checkbox"] {
         display: inline;
         align-items: center;
     }
+
+    .content {
+        display: block;
+    }
+
+    .content-1-1 img {
+        width: 463px;
+        height: 230px;
+    }
+
+    .content-1-2-1 {
+        margin-top: 20px;
+    }
+
+    span {
+        display: inline;
+        width: 450px;
+        position: relative;
+        left: 10px;
+    }
+
+    #content_right {
+        margin-top: 300px;
+    }
+
 }

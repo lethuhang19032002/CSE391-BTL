@@ -31,8 +31,8 @@
     height: 641px;
     border-radius: 9px;
 }
-.img01
-{
+
+.img01 {
     width: 100%;
     padding-right: 180px;
     padding-left: 180px;
@@ -54,22 +54,24 @@
     padding-left: 250px;
     border-radius: 9px;
 }
-.video01
-{
+
+.video01 {
     height: 500px;
     width: 100%;
     padding-right: 250px;
     padding-left: 250px;
     padding-bottom: 30px;
 }
+
 /* css image cho user_review_02 */
-.img06{
+.img06 {
     width: 100%;
     padding-right: 250px;
     padding-left: 250px;
     padding-bottom: 30px;
     border-radius: 30px;
 }
+
 /* footer */
 .footer-row {
     display: flex;
@@ -98,35 +100,38 @@
 
 /* respponsive */
 @media screen and (max-width: 768px) {
-    .footer-row{
-        display:inline;
-        text-align: center;
-    }
-    .footer-logo{
-        align-items: center;
-        margin-bottom: -40px;
-    }
-    a.logo{
-        display: flex !important;
-        justify-content: center;
-    }
-    .footer-about{
+    .footer-row {
         display: inline;
         text-align: center;
     }
-    
+
+    .footer-logo {
+        align-items: center;
+        margin-bottom: -40px;
+    }
+
+    a.logo {
+        display: flex !important;
+        justify-content: center;
+    }
+
+    .footer-about {
+        display: inline;
+        text-align: center;
+    }
+
 }
+
 @media (max-width: 980px) {
-    .content1
-    {
+    .content1 {
         padding: 0 10px;
     }
-    .img02
-    {
+
+    .img02 {
         padding: 0 10px;
     }
-    .img06
-    {
+
+    .img06 {
         padding: 0 10px;
     }
 }
